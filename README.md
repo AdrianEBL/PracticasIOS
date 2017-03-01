@@ -1,1 +1,1 @@
-# Repositorio con practicas de iOS hechas en Xcode utilizando Swift
+# Repositorio con practicas de iOS hechas en Xcode utilizando el lenguaje Swift
