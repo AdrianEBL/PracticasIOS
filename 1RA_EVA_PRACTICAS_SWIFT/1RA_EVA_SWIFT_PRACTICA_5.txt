@@ -1,0 +1,30 @@
+Practica 5
+
+classMiClase{
+	init(){
+		print("CONSTRUCTOR SIN ARGUMENTOS")
+	}
+	funcmandarMensaje(_ mensaje:String){
+		print(mensaje)
+	}
+}
+
+letmcObj = MiClase()
+mcObj.mandarMensaje("Hola Mundo")
+
+classMiOtraClase: MiClase{
+	
+}
+
+letmocObjeto = MiOtraClase()
+mocObjeto.mandarMensaje("OTRO HOLA MUNDO")
+
+classMiOtraOtraClase: MiClase{
+	overrideinit(){
+		print("OTRO INITIALIZER")
+	}
+}
+
+letmooocObjetotoe = MiOtraOtraClase()
+
+http://swift.sandbox.bluemix.net/#/repl/58ac7b32a2ec05532d9627d3

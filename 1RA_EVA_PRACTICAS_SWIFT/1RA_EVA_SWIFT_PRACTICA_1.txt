@@ -1,0 +1,26 @@
+Practica 1
+
+varsCade: String
+sCade = "Hola Mundo!!!"
+var sCade2 = "Hola Mundo 2!!"
+letmiConstante: Int = 5
+print(sCade)
+print(sCade2)
+print(miConstante)
+print("El valor de la constante es = \(miConstante)")
+print(miConstante)
+var sCade3, sCade4, sCade5: String
+//TIPOS DE DATOS
+variVal = 100
+vardValDob = 5.5
+print("La suma es = \(Double(iVal) + dValDob)")
+varsNom = "Adrian Barrios"
+print("Mi nombre es \(sNom)")
+varsCon = "HOLA"
+//sCon = sCon + " " + "MUNDO"
+sCon += " "
+sCon += "MUNDO"
+print(sCon)
+
+
+http://swift.sandbox.bluemix.net/#/repl/58ab28d32eb4665d718de7fe

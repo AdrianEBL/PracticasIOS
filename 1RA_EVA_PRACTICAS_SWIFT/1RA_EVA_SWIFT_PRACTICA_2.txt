@@ -1,0 +1,19 @@
+Practica 2
+
+//TIPOS WRAPPED(?) - UNWRAPPED(!)
+varsCade: String?
+sCade = nil
+sCade = "hola mundo"
+print(sCade!)
+
+variVal: Int?
+iVal = nil
+
+var sCade2: String!
+sCade2 = nil
+sCade2 = "QUIBO"
+print(sCade2)
+
+
+http://swift.sandbox.bluemix.net/#/repl/58ab2ab82eb4665d718de800
+

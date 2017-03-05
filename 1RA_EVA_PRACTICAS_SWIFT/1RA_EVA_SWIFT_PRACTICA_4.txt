@@ -1,0 +1,31 @@
+Practica 4
+
+funcmandarMensaje(){
+	print("Hola Mundo")
+}
+
+mandarMensaje()
+
+funcdevuelvValor() ->Int{
+	return 10
+}
+
+letiVal = devuelvValor()
+print(iVal)
+
+func mandarMensaje2(mensaje:String){
+	print(mensaje)
+}
+mandarMensaje2(mensaje: "Hola mundo cruel")
+
+func mandarMensaje3(_ mensaje:String){
+	print(mensaje)
+}
+mandarMensaje3("HELLO WORLD")
+
+func mandarMensaje4(introduceTuMensaje mensaje: String){
+	print(mensaje)
+}
+mandarMensaje4(introduceTuMensaje: "USO DE ALIAS")
+
+http://swift.sandbox.bluemix.net/#/repl/58ac77eba2ec05532d9627d0

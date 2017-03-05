@@ -1,0 +1,27 @@
+Practica 6
+
+//PROTOCOL --> INTERFACES
+protocolhacerAlgo {
+	funcmandarMensaje()
+}
+
+classImplementarProtocolo: hacerAlgo{
+	init(){
+		print("SIN ARGUMENTOS")
+	}
+	init(mensaje: String){
+		print(mensaje)
+	}
+	init(mensaje: String, veces: Int){
+		for _ in 0...veces{
+			print(mensaje)
+		}
+	}
+	funcmandarMensaje(){
+		print("HOLA MUNDO")
+	}
+}
+letipObj = ImplementarProtocolo(mensaje: "HOLA", veces: 5)
+ipObj.mandarMensaje()
+
+http://swift.sandbox.bluemix.net/#/repl/58ac7db6a2ec05532d9627e4

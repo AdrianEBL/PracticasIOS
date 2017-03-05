@@ -1,0 +1,24 @@
+Practica 3
+
+varaArreCade = ["HOLA", "MUNDO", "CRUEL"]
+print(aArreCade[0])
+print(aArreCade[1])
+print(aArreCade[2])
+
+varaArreNume = Array(repeating: 10, count: 5)
+print(aArreNume[3])
+
+foriNum in aArreNume {
+	print(iNum)
+}
+
+for iNum2 in 0...4{
+	print(aArreNume[iNum2])
+}
+
+for iNum2 in 0..<aArreNume.count{
+	print(aArreNume[iNum2])
+}
+
+
+http://swift.sandbox.bluemix.net/#/repl/58ab2d2c2eb4665d718de801
